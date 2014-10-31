@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A993DF9F1A03FB880070399A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993DF9E1A03FB880070399A /* AppDelegate.swift */; };
+		A993DFA11A03FB880070399A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A993DFA01A03FB880070399A /* Images.xcassets */; };
+		A993DFA41A03FB880070399A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A993DFA21A03FB880070399A /* MainMenu.xib */; };
+		A993DFB01A03FB880070399A /* DelphiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A993DFAF1A03FB880070399A /* DelphiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A993DFAA1A03FB880070399A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A993DF911A03FB880070399A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A993DF981A03FB880070399A;
+			remoteInfo = Delphi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A993DF991A03FB880070399A /* Delphi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delphi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A993DF9D1A03FB880070399A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A993DF9E1A03FB880070399A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A993DFA01A03FB880070399A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A993DFA31A03FB880070399A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A993DFA91A03FB880070399A /* DelphiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelphiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A993DFAE1A03FB880070399A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A993DFAF1A03FB880070399A /* DelphiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelphiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A993DF961A03FB880070399A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A993DFA61A03FB880070399A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A993DF901A03FB880070399A = {
+			isa = PBXGroup;
+			children = (
+				A993DF9B1A03FB880070399A /* Delphi */,
+				A993DFAC1A03FB880070399A /* DelphiTests */,
+				A993DF9A1A03FB880070399A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A993DF9A1A03FB880070399A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A993DF991A03FB880070399A /* Delphi.app */,
+				A993DFA91A03FB880070399A /* DelphiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A993DF9B1A03FB880070399A /* Delphi */ = {
+			isa = PBXGroup;
+			children = (
+				A993DF9E1A03FB880070399A /* AppDelegate.swift */,
+				A993DFA01A03FB880070399A /* Images.xcassets */,
+				A993DFA21A03FB880070399A /* MainMenu.xib */,
+				A993DF9C1A03FB880070399A /* Supporting Files */,
+			);
+			path = Delphi;
+			sourceTree = "<group>";
+		};
+		A993DF9C1A03FB880070399A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A993DF9D1A03FB880070399A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A993DFAC1A03FB880070399A /* DelphiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A993DFAF1A03FB880070399A /* DelphiTests.swift */,
+				A993DFAD1A03FB880070399A /* Supporting Files */,
+			);
+			path = DelphiTests;
+			sourceTree = "<group>";
+		};
+		A993DFAD1A03FB880070399A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A993DFAE1A03FB880070399A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A993DF981A03FB880070399A /* Delphi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A993DFB31A03FB880070399A /* Build configuration list for PBXNativeTarget "Delphi" */;
+			buildPhases = (
+				A993DF951A03FB880070399A /* Sources */,
+				A993DF961A03FB880070399A /* Frameworks */,
+				A993DF971A03FB880070399A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delphi;
+			productName = Delphi;
+			productReference = A993DF991A03FB880070399A /* Delphi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A993DFA81A03FB880070399A /* DelphiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A993DFB61A03FB880070399A /* Build configuration list for PBXNativeTarget "DelphiTests" */;
+			buildPhases = (
+				A993DFA51A03FB880070399A /* Sources */,
+				A993DFA61A03FB880070399A /* Frameworks */,
+				A993DFA71A03FB880070399A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A993DFAB1A03FB880070399A /* PBXTargetDependency */,
+			);
+			name = DelphiTests;
+			productName = DelphiTests;
+			productReference = A993DFA91A03FB880070399A /* DelphiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A993DF911A03FB880070399A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Willem van der Schyff";
+				TargetAttributes = {
+					A993DF981A03FB880070399A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A993DFA81A03FB880070399A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A993DF981A03FB880070399A;
+					};
+				};
+			};
+			buildConfigurationList = A993DF941A03FB880070399A /* Build configuration list for PBXProject "Delphi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A993DF901A03FB880070399A;
+			productRefGroup = A993DF9A1A03FB880070399A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A993DF981A03FB880070399A /* Delphi */,
+				A993DFA81A03FB880070399A /* DelphiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A993DF971A03FB880070399A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993DFA11A03FB880070399A /* Images.xcassets in Resources */,
+				A993DFA41A03FB880070399A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A993DFA71A03FB880070399A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A993DF951A03FB880070399A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993DF9F1A03FB880070399A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A993DFA51A03FB880070399A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A993DFB01A03FB880070399A /* DelphiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A993DFAB1A03FB880070399A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A993DF981A03FB880070399A /* Delphi */;
+			targetProxy = A993DFAA1A03FB880070399A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A993DFA21A03FB880070399A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A993DFA31A03FB880070399A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A993DFB11A03FB880070399A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A993DFB21A03FB880070399A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A993DFB41A03FB880070399A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Delphi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A993DFB51A03FB880070399A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Delphi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A993DFB71A03FB880070399A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelphiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delphi.app/Contents/MacOS/Delphi";
+			};
+			name = Debug;
+		};
+		A993DFB81A03FB880070399A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DelphiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delphi.app/Contents/MacOS/Delphi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A993DF941A03FB880070399A /* Build configuration list for PBXProject "Delphi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A993DFB11A03FB880070399A /* Debug */,
+				A993DFB21A03FB880070399A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A993DFB31A03FB880070399A /* Build configuration list for PBXNativeTarget "Delphi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A993DFB41A03FB880070399A /* Debug */,
+				A993DFB51A03FB880070399A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A993DFB61A03FB880070399A /* Build configuration list for PBXNativeTarget "DelphiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A993DFB71A03FB880070399A /* Debug */,
+				A993DFB81A03FB880070399A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A993DF911A03FB880070399A /* Project object */;
+}
